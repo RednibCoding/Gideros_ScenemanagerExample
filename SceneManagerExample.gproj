@@ -1,0 +1,24 @@
+<project>
+ <properties app_name="" win_domain="giderosmobile.com" winrt_package="com.yourdomain.yourapp" encryptCode="0" win_org="GiderosMobile" tv_icon="" disableSplash="0" encryptAssets="0" retinaDisplay="0" architecture="0" build_number="1" version="1.0" windowHeight="0" osx_signingId="" packageName="com.yourdomain.yourapp" splash_v_image="" orientation="0" html5_host="" fps="60" autorotation="0" mouseToTouch="1" splash_h_image="" splashScaleMode="0" logicalHeight="480" mouseTouchOrder="0" osx_domain="giderosmobile.com" ios_bundle="com.yourdomain." version_code="1" android_template="0" html5_mem="256" scaleMode="0" winrt_org="GiderosMobile" osx_category="5" backgroundColor="#ffffff" exportMode="0" html5_pack="0" osx_bundle="com.yourdomain." touchToMouse="1" osx_org="GiderosMobile" windowWidth="0" osx_installerId="" iosDevice="0" app_icon="" logicalWidth="320">
+  <imageScales/>
+  <plugins/>
+  <exports/>
+ </properties>
+ <folder name="gfx">
+  <file source="scene2.png"/>
+  <file source="scene1.png"/>
+  <file source="btnPrev_down.png"/>
+  <file source="btnPrev.png"/>
+  <file source="btnNext_down.png"/>
+  <file source="btnNext.png"/>
+ </folder>
+ <folder name="scenes">
+  <file source="scene2.lua"/>
+  <file source="scene1.lua"/>
+ </folder>
+ <folder name="lib">
+  <file source="../Libs/scenemanager.lua"/>
+  <file source="../Libs/button.lua"/>
+ </folder>
+ <file source="main.lua"/>
+</project>
